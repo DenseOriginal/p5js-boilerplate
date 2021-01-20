@@ -2,7 +2,6 @@
 
 const cnvWidth = 600;
 const cnvHeight = 400;
-let cam: any;
 
 let angle = 0;
 let angleOffset = 0;
