@@ -1,13 +1,10 @@
 /// <reference path="../node_modules/@types/p5/global.d.ts"/>
 
-const cnvWidth = 600;
-const cnvHeight = 400;
-
 let angle = 0;
 let angleOffset = 0;
 
 (window as any).setup = () => {
-	createCanvas(600, 400);
+	createCanvas(windowWidth, windowHeight);
 	angleOffset = random(-0.1, 0.1);
 }
 
